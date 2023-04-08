@@ -1,0 +1,48 @@
+.container {
+  height: 88px;
+}
+
+.container .navbar-brand {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1;
+}
+
+.container .nav-item .nav-link {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1;
+  color: #111111;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.container .nav-item .nav-link:hover {
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+.about-1 {
+  width: 100%;
+  height: 100vh;
+}
+
+.about-1 .container .categories .text {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1;
+  color: #111111;
+}
+
+.about-1 .container .categories .icons {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */

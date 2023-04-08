@@ -1,0 +1,27 @@
+.container{
+    height: 88px;
+    .navbar-brand{
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        color: #111111;
+        line-height: 1;
+    }
+    .nav-item{
+        .nav-link{
+            display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            text-decoration: none;
+            line-height: 1;
+            //padding: 3px;
+            color: #111111;
+            transition: .1s;
+            &:hover{
+               color: rgb(255, 69, 0);
+               border-bottom: 1px solid rgb(255, 69, 0);
+            }
+        }
+    }
+}
